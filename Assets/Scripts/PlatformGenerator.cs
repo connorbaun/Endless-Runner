@@ -8,7 +8,7 @@ public class PlatformGenerator : MonoBehaviour {
     public Transform generationPoint; //the point ahead of us that will generate more platforms
     public float distanceBetween; //how far apart do they spawn?
 
-    private float platformWidth; //distance between each platform
+    private float platformWidth; //the width of the box collider attached to the current platform
 
     public float distanceBetweenMin; //minimum distance between each platform
     public float distanceBetweenMax; //maximum distance between each platform
@@ -27,7 +27,7 @@ public class PlatformGenerator : MonoBehaviour {
     public float maxHeightChange;
     private float heightChange;
 
-    public float randomCoinThreshold; //set in inspector, the random number generated in coin generation is checked against this number to see how many coins to generate.
+    public float randomCoinThreshold; //set in inspector, the random number generated in coin generation is checked against this number to see how many coins to generate. 
 
 
 
